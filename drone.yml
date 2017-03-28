@@ -1,0 +1,7 @@
+#! /bin/bash
+# pulling the image from dockerhub
+docker pull saikis/lamp 
+# tagging the container to current state
+docker tag saikis/lamp:latest saikis/lamp:current  
+# run the docker container 
+docker run -d --name lamp saikis/lamp 
