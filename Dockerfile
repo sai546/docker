@@ -1,4 +1,4 @@
-FROM trusty/ubuntu
+FROM ubuntu:latest
 MAINTAINER saikishore <kishore.lnx86@gmail.com>
 
 RUN \
